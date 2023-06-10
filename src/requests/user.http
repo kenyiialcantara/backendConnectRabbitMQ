@@ -1,0 +1,15 @@
+@api = http://localhost:3000/
+
+
+###
+GET {{api}}user
+
+
+###
+POST {{api}}user
+Content-Type: application/json
+
+{
+   "email": "kenyi@uni.pe",
+   "password":"hola" 
+}
